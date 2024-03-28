@@ -1,0 +1,99 @@
+*{margin: 0; padding: 0;}
+
+ul{list-style: none;}
+
+body{overflow-x: hidden;}
+
+.wrap{width: 1920px; margin: 0 auto;}
+
+/* 헤더부분 */
+.header{width: 1920px; padding: 20px 0;}
+
+.logo{width: 400px; height: 34px; float: left;}
+
+.menu{width: 1000px; height: 20px; float: right; padding: 20px 0;}
+
+.menu>li{width: 200px; float: left; text-align: center;}
+
+.header:after{display: block; content: ""; clear: both;}
+
+
+/* 메인이미지부분 */
+.mainimg{width: 1920px; height: 448px; background-image: url(../images/main.jpg);}
+
+/* 콘텐츠부분 */
+.content{width: 1920px;}
+
+.box1{width: 1920px; height: 708px; background-image: url(../images/box1.jpg);}
+
+.box2{width:1920px; height: 523px; background-color: #cd8791;}
+
+.box2>div{width: 50%; margin: 0 auto; text-align: center; color: white; padding-top: 100px;}
+
+.box2>div>h3{font-size: 25px;}
+
+.box2>div>img{padding: 50px 0;}
+
+.box3{width: 1920px; height: 639px;}
+
+.box3_left{width: 50%; height: 639px; background-color: #d0112b ; float: left;}
+
+.box3_left>div{width: 50%; margin: 0 auto; text-align: center; color: white; padding-top: 100px;}
+
+.box3_left>div>h3{font-size: 25px;}
+
+.box3_left>div>img{padding: 50px 0;}
+
+.box3_left>div>p{font-size: 12px;}
+
+.box3_right{width: 50%; height: 639px; background-color: #ce495b ; float: right;}
+
+.box3_right>div{width: 50%; margin: 0 auto;text-align: center; color: white; padding-top: 100px;}
+
+.box3_right>div>h3{font-size: 25px;}
+
+.box3_right>div>img{padding: 50px;}
+
+.box3_right>div>p{font-size: 12px;}
+
+.box4{width: 1920px; height: 639px;}
+
+.box4_left{width: 50%; height: 639px; background-color: #ce707d; float: left;}
+
+.box4_left>div{width: 50%; margin: 0 auto; text-align: center; color: white; padding-top: 100px;}
+
+.box4_left>div>h3{font-size: 25px;}
+
+.box4_left>div>img{padding: 50px;}
+
+.box4_left>div>p{font-size: 12px;}
+
+.box4_right{width: 50%; height: 639px; background-color: #cd8791  ; float: right;}
+
+.box4_right>div{width: 50%; margin: 0 auto; text-align: center; color: white; padding-top: 100px;}
+
+.box4_right>div>h3{font-size: 25px;}
+
+.box4_right>div>img{padding: 50px;}
+
+.box4_right>div>p{font-size: 12px;}
+
+/* 푸터부분 */
+.footer{width: 1920px; height: 171px; background-color: #eceff4;}
+
+.copyright{width: 1920px; text-align: center; padding: 10px 0; color: #555a6d;}
+
+.sns{width: 200px; margin:  0 auto; padding-top: 40px;}
+
+.sns>li{width: 40px; height: 40px; background-color: gray; margin: 0 5px; float: left; border-radius: 5px; text-align: center;}
+
+.sns>li>img{vertical-align: middle;}
+
+
+
+
+
+
+
+
+
